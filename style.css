@@ -64,4 +64,29 @@ a {
   background-color: #ffffff;
   border-radius: 30px;
   box-shadow: 0 5px 5px 0 rgba(75, 93, 104, 0.1);
+  font-family: Helvetica;
+}
+
+/* LANDING PAGE */
+
+h1 {
+  font-family: Helvetica;
+  font-size: 80px;
+  font-weight: bold;
+  color: #212353;
+  max-width: 650px;
+}
+
+section > p {
+  font-size: 18px;
+  max-width: 380px;
+  color: #4b5d68;
+}
+
+section > a {
+  background: #9c69e2;
+  font-size: 18px;
+  width: 170px;
+  height: 60px;
+  border-radius: 30px;
 }
