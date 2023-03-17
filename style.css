@@ -1,13 +1,21 @@
+body {
+  background: #f6fafd;
+}
+
 nav {
-  height: 150px;
+  height: 140px;
   width: 100%;
-  background: lightseagreen;
+  /* background: lightseagreen; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
   display: flex;
   justify-content: left;
   align-items: baseline;
+  margin-left: 240px;
 }
 
 .circle {
@@ -23,4 +31,37 @@ nav {
   border-radius: 20px;
   background: #f063b8;
   margin-left: 9px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 400px;
+}
+
+.navigation > li {
+  padding-left: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa-arrow-right {
+  font-size: 25px;
+  color: #9c69e2;
+  margin-left: 20px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 240px;
+  width: 210px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 5px 5px 0 rgba(75, 93, 104, 0.1);
 }
