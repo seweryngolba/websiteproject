@@ -3,3 +3,24 @@ nav {
   width: 100%;
   background: lightseagreen;
 }
+
+.logo {
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+}
+
+.circle {
+  width: 20px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #9c69e2;
+}
+
+.tictac {
+  width: 20px;
+  height: 35px;
+  border-radius: 20px;
+  background: #f063b8;
+  margin-left: 9px;
+}
