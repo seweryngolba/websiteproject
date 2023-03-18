@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #f6fafd;
 }
@@ -89,6 +93,7 @@ h1 {
   max-width: 380px;
   color: #4b5d68;
   padding: 50px 0;
+  line-height: 29px;
 }
 
 .main-button {
@@ -129,6 +134,7 @@ h1 {
   color: #4b5d68;
   padding-top: 40px;
   text-align: justify;
+  line-height: 29px;
 }
 
 .features {
