@@ -165,5 +165,30 @@ h1 {
 }
 
 /* Footer */
+.container-box {
+  width: 1117px;
+  margin: 0 auto;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.footer-heading {
+  font-size: 40px;
+  color: #212353;
+  font-weight: bold;
+}
+
+.footer-paragraph {
+  font-size: 18px;
+  color: #4b5d68;
+  padding-top: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* end */
