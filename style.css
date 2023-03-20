@@ -8,8 +8,8 @@ body {
 
 nav {
   height: 140px;
-  width: 100%;
-  /* background: lightseagreen; */
+  width: 1117px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,7 +19,6 @@ nav {
   display: flex;
   justify-content: left;
   align-items: baseline;
-  margin-left: 240px;
 }
 
 .circle {
@@ -39,7 +38,7 @@ nav {
 
 .navigation {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding-right: 400px;
 }
@@ -62,7 +61,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 240px;
   width: 210px;
   height: 60px;
   background-color: #ffffff;
