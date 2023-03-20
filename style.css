@@ -155,9 +155,17 @@ h1 {
   margin: 0 auto;
 }
 
-.grid-container {
+.rectangle {
   width: 1117px;
   margin: 0 auto;
+  grid-template-columns: auto auto;
+  display: grid;
+  justify-content: space-between;
+  row-gap: 50px;
+}
+
+.rectangle-text {
+  max-width: 220px;
 }
 
 .line {
