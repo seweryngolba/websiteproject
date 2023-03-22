@@ -409,7 +409,7 @@ h1 {
   width: 100%;
   height: 2px;
   background-color: rgba(156, 105, 226, 0.2);
-  margin: 150px 0 100px 0;
+  margin: 150px 0 80px 0;
 }
 
 /* Footer */
@@ -417,6 +417,9 @@ h1 {
   width: 1117px;
   margin: 0 auto;
   height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .footer-one,
@@ -465,6 +468,70 @@ h1 {
   align-items: center;
 }
 
+.logo-footer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.comp-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #212353;
+  padding-left: 15px;
+}
+
+.circle-footer {
+  width: 20px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #9c69e2;
+  margin-top: 12px;
+}
+
+.address {
+  font-size: 16px;
+  line-height: 28px;
+  color: #212353;
+  font-weight: 500;
+  letter-spacing: 1%;
+  padding-top: 60px;
+}
+
+.address::after {
+  content: "\A Bahagia Ave Street PRBW 29281";
+  white-space: pre-wrap;
+}
+
+.info::after {
+  content: "\A 1-232-3434 (Main)";
+  white-space: pre-wrap;
+}
+
+.info {
+  font-size: 16px;
+  line-height: 28px;
+  color: #212353;
+  font-weight: 400;
+  letter-spacing: 1%;
+  padding-top: 10px;
+}
+
+.list-one,
+.list-two {
+  font-size: 16px;
+  color: #212353;
+}
+
+.list-one {
+  font-weight: bold;
+  padding-bottom: 35px;
+}
+
+.list-two {
+  line-height: 40px;
+}
+
 .all-rights {
   font-size: 12px;
   line-height: 22px;
@@ -480,4 +547,5 @@ h1 {
   padding: 15px;
   border-radius: 50%;
 }
+
 /* end */
