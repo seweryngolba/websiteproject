@@ -270,7 +270,6 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  position: relative;
 }
 
 .slider-boxes {
@@ -301,16 +300,31 @@ h1 {
   height: 330px;
   border-radius: 20px;
   background: #ffffff;
-  box-shadow: 0 20px rgba(156, 105, 226, 0.1);
+  box-shadow: 0 20px rgba(99, 12, 221, 0.1);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  position: relative;
-  z-index: 10;
 }
 
 .box-one {
   width: 645px;
+}
+
+.offer-highlight {
+  box-shadow: 0 20px rgba(99, 12, 221, 0.3);
+}
+
+.about-gradient {
+  width: 180px;
+  height: 130px;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.5270483193277311) 100%
+  );
+  z-index: 1;
 }
 
 .box-two {
@@ -357,6 +371,7 @@ h1 {
 .slider-about-two,
 .slider-about-three {
   width: 180px;
+  position: relative;
 }
 
 .person-one {
@@ -427,6 +442,12 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .footer-heading {
@@ -523,13 +544,34 @@ h1 {
   color: #212353;
 }
 
-.list-one {
+.list-one,
+.socials {
   font-weight: bold;
   padding-bottom: 35px;
 }
 
 .list-two {
   line-height: 40px;
+}
+
+.three-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+  font-size: 18px;
+  color: #ffffff;
+  padding: 16px;
+  background: #e5e5e5;
+  border-radius: 50%;
+}
+
+.fa-facebook-f {
+  padding: 16px 20px;
 }
 
 .all-rights {
