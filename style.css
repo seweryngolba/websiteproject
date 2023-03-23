@@ -4,6 +4,13 @@ html {
 
 body {
   background: #f6fafd;
+  font-family: "Mulish", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Helvetica, sans-serif;
 }
 
 nav {
@@ -51,6 +58,28 @@ a {
   text-decoration: none;
 }
 
+.a-nav,
+.b-nav {
+  font-size: 16px;
+}
+
+.a-nav {
+  font-weight: 500;
+  color: #4b5d68;
+}
+
+.b-nav {
+  font-weight: 800;
+  color: #212353;
+}
+
+.bt-nav {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: #212353;
+}
+
 .fa-arrow-right {
   font-size: 25px;
   color: #9c69e2;
@@ -66,7 +95,6 @@ a {
   background-color: #ffffff;
   border-radius: 30px;
   box-shadow: 0 5px 5px 0 rgba(75, 93, 104, 0.1);
-  font-family: Helvetica;
 }
 
 /* LANDING PAGE */
@@ -81,13 +109,14 @@ a {
 h1 {
   font-family: Helvetica;
   font-size: 80px;
-  font-weight: bold;
+  font-weight: 700;
   color: #212353;
   width: 580px;
 }
 
 .main-about {
   font-size: 18px;
+  font-weight: 500;
   max-width: 380px;
   color: #4b5d68;
   padding: 50px 0;
@@ -98,6 +127,7 @@ h1 {
   background: #9c69e2;
   color: #ffffff;
   font-size: 18px;
+  font-weight: 800;
   padding: 16px 37px;
   border-radius: 30px;
 }
@@ -125,11 +155,12 @@ h1 {
 .pink-header {
   font-size: 40px;
   color: #212353;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .pink-about {
   font-size: 18px;
+  font-weight: 500;
   color: #4b5d68;
   padding-top: 40px;
   text-align: justify;
@@ -142,7 +173,7 @@ h1 {
 
 .header-features {
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700;
   color: #212353;
   text-align: center;
 }
@@ -150,6 +181,7 @@ h1 {
 .about-features {
   max-width: 584px;
   font-size: 18px;
+  font-weight: 500;
   color: #4b5d68;
   padding-top: 50px;
   text-align: center;
@@ -235,7 +267,7 @@ h1 {
   font-size: 16px;
   color: #4b5d68;
   line-height: 26px;
-  width: 200px;
+  width: 220px;
   height: 160px;
   padding: 20px 0;
 }
@@ -247,9 +279,10 @@ h1 {
 }
 
 .button-text-offer {
-  font-size: 18px;
+  font-size: 16px;
   color: #212353;
-  font-weight: bold;
+  font-weight: 800;
+  letter-spacing: 0.05em;
 }
 
 .offer-photo-two,
@@ -290,7 +323,7 @@ h1 {
 
 .slider-heading {
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700;
   color: #ffffff;
 }
 
@@ -316,7 +349,7 @@ h1 {
 
 .about-gradient {
   width: 180px;
-  height: 130px;
+  height: 150px;
   position: absolute;
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -344,14 +377,17 @@ h1 {
 
 .full-name {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 900;
   color: #212353;
+  letter-spacing: 0.05em;
 }
 
 .slider-sub {
   font-size: 14px;
+  font-weight: 500;
   color: #9c69e2;
   padding: 10px 0 20px 0;
+  letter-spacing: 0.1em;
 }
 
 .slider-about,
@@ -359,7 +395,6 @@ h1 {
 .slider-about-three {
   font-size: 18px;
   color: #4b5d68;
-  font-weight: 400;
   line-height: 32px;
   height: 130px;
 }
@@ -453,17 +488,19 @@ h1 {
 .footer-heading {
   font-size: 40px;
   color: #212353;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .footer-paragraph {
   font-size: 18px;
+  font-weight: 500;
   color: #4b5d68;
   padding-top: 20px;
 }
 
 .footer-button-one {
   font-size: 18px;
+  font-weight: 900;
   color: #ffffff;
   background: #f063b8;
   padding: 21px 37px;
@@ -480,7 +517,13 @@ h1 {
   background-color: #ffffff;
   border-radius: 30px;
   box-shadow: 0 5px 5px 0 rgba(75, 93, 104, 0.1);
-  font-family: Helvetica;
+}
+
+.bt-text {
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  color: #212353;
 }
 
 .buttons {
@@ -497,7 +540,7 @@ h1 {
 
 .comp-name {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 900;
   color: #212353;
   padding-left: 15px;
 }
@@ -515,7 +558,7 @@ h1 {
   line-height: 28px;
   color: #212353;
   font-weight: 500;
-  letter-spacing: 1%;
+  letter-spacing: 0.1em;
   padding-top: 60px;
 }
 
@@ -533,24 +576,25 @@ h1 {
   font-size: 16px;
   line-height: 28px;
   color: #212353;
-  font-weight: 400;
-  letter-spacing: 1%;
+  letter-spacing: 0.1em;
   padding-top: 10px;
 }
 
 .list-one,
-.list-two {
+.socials {
   font-size: 16px;
   color: #212353;
+  font-weight: 900;
 }
 
 .list-one,
 .socials {
-  font-weight: bold;
   padding-bottom: 35px;
 }
 
 .list-two {
+  font-size: 16px;
+  color: #212353;
   line-height: 40px;
 }
 
@@ -577,9 +621,9 @@ h1 {
 .all-rights {
   font-size: 12px;
   line-height: 22px;
-  letter-spacing: 1%;
+  letter-spacing: 0.1em;
   color: #212353;
-  width: 250px;
+  width: 350px;
 }
 
 .fa-comment-dots {
