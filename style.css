@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: #f6fafd;
+  background: linear-gradient(#f6fafd, #ffffff);
   font-family: "Mulish", sans-serif;
 }
 
@@ -180,6 +180,7 @@ h1 {
   max-width: 584px;
   font-size: 18px;
   font-weight: 500;
+  line-height: 29px;
   color: #4b5d68;
   padding-top: 50px;
   text-align: center;
@@ -583,8 +584,11 @@ h1 {
 
 .list-two {
   font-size: 16px;
-  color: #212353;
   line-height: 40px;
+}
+
+.lists {
+  color: #212353;
 }
 
 .three-icons {
